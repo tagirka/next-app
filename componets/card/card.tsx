@@ -113,7 +113,9 @@ const Card = ({ product }: CardHandler): JSX.Element => {
       )}
 
       {selected === SelectState.Disabled && (
-        <div className={styles.bottom}>disabled</div>
+        <div className={[styles.bottom, styles.bottomDisabled].join(" ")}>
+          {`Печалька, с ${product.title} закончился`}
+        </div>
       )}
     </div>
   );
