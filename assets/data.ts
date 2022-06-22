@@ -4,6 +4,7 @@ const DataProducts: ProductType[] = [
   {
     id: "1",
     title: "с фуа-гра",
+    src: "/card/photo.png",
     weight: 5,
     weightSymbol: "кг",
     description: "Печень утки разварная с артишоками.",
@@ -23,6 +24,7 @@ const DataProducts: ProductType[] = [
   {
     id: "2",
     title: "с рыбой",
+    src: "/card/photo.png",
     weight: 2,
     weightSymbol: "кг",
     description: "Головы щучьи с чесноком да свежайшая сёмгушка.",
@@ -41,6 +43,7 @@ const DataProducts: ProductType[] = [
   {
     id: "3",
     title: "с курой",
+    src: "/card/photo.png",
     weight: 5,
     weightSymbol: "кг",
     description: "Филе из цыплят с трюфелями в бульоне.",

@@ -6,6 +6,7 @@ export interface ProductOptionType {
 export interface ProductType {
   id: string;
   title: string;
+  src: string;
   listOptions: ProductOptionType[];
   weight: number;
   weightSymbol: string;

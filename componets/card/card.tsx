@@ -77,7 +77,7 @@ const Card = ({ product }: CardHandler): JSX.Element => {
             })}
           >
             <Image
-              src={"/card/photo.png"}
+              src={product.src}
               alt="cat"
               width={320}
               height={272}
